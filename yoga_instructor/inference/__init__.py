@@ -1,0 +1,1 @@
+"""Webcam inference entry points."""

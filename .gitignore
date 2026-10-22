@@ -1,0 +1,33 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Local data, downloaded MediaPipe model, and generated training artifacts
+/data/raw_images/
+/data/model_artifacts/
+/data/model_assets/
+/data/pose_landmarker_lite.task
+/data/*.npz
+/data/*summary.json
+/data/*metadata.json
+/data/dataset_audit.json
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
